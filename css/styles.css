@@ -1,0 +1,32 @@
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+img:first-child {
+  visibility: visible;
+}
+
+.controls {
+  background-color: #111;
+  padding: 5px;
+  width: 100%;
+}
